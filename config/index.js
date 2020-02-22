@@ -46,7 +46,7 @@ module.exports = {
     // 是否启用蓝图 - 查看打包细节
     bundleAnalyzerReport: process.env.npm_config_report
   },
-  // Config for vipkid online environment
+  // Config for online environment
   online: {
     index,
     assetsRoot,
