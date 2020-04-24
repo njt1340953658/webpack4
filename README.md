@@ -20,3 +20,29 @@ module.exports = {
   }
 }
 ```
+> package.json配置
+```js
+{
+  "name": "web-wetrunk-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack4 --dev",
+    "dll": "webpack4 --dll",
+    "build:test": "webpack4 --build",
+    "build": "webpack4 --online",
+    "build:report": "webpack4 --report"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack4": "^1.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
+
+```
