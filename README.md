@@ -2,6 +2,8 @@
 > webpack4脚手架配置中心
 
 ##### 使用
+> 创建webpack4.config.js文件
+
 ```js
 const path = require('path')
 
